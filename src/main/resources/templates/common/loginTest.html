@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>직원 정보</title>
+</head>
+<body>
+<div>
+    <h2>인증된 직원 정보</h2>
+    <p>아이디: <span th:text="${userInfo.id}"></span></p>
+    <p>닉네임: <span th:text="${userInfo.kakaoAccount.profile.nickName}"></span></p>
+
+    </p>
+</div>
+
+
+</body>
+</html>

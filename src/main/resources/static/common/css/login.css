@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container p img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: -15px auto 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-container {
+  width: 100%;
+  height: 550px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background: #e3e3e3;
+  color: #333;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #343434;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+.login-form p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
